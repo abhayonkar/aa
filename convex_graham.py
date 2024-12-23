@@ -26,3 +26,6 @@ def graham_scan(points):
 points = [(0, 0), (1, 1), (2, 2), (2, 0), (2, 4), (3, 3), (4, 2)]
 hull = graham_scan(points)
 print("Convex Hull:", hull)
+
+#t - O(nlogn)
+#s - O(n)

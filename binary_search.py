@@ -21,3 +21,7 @@ if result != -1:
     print(f"Target {target} found at index {result}.")
 else:
     print(f"Target {target} not found in the list.")
+
+
+#t - O(logn)
+#s - O(logn)

@@ -21,3 +21,7 @@ capacity = 50
 
 max_value = knapsack(values, weights, capacity)
 print(f"The maximum value that can be put in a knapsack of capacity {capacity} is {max_value}.")
+
+
+# O(nW) n = number of valus
+# W - weights

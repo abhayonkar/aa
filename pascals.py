@@ -24,3 +24,7 @@ def print_pascals_triangle(triangle):
 num_rows = 5
 triangle = generate_pascals_triangle(num_rows)
 print_pascals_triangle(triangle)
+
+
+# t - O(n*2)
+# s - O(n*2)

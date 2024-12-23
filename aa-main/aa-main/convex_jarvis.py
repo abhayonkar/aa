@@ -68,7 +68,3 @@ hull = jarvis_march(points)
 print("The convex hull is:")
 for point in hull:
     print(point)
-
-
-# O(n*2)
-# O(h)

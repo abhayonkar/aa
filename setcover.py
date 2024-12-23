@@ -1,11 +1,4 @@
 def set_cover(universe, subsets):
-    """
-    Greedy algorithm to approximate the Set Cover problem.
-
-    :param universe: The set of elements to be covered.
-    :param subsets: A list of subsets of the universe.
-    :return: A list of subsets that cover the universe.
-    """
     # Initialize the covered set and the result list
     covered = set()
     result = []

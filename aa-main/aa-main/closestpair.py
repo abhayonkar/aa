@@ -61,11 +61,43 @@ def distance(p1, p2):
 points = [(2, 3), (12, 30), (40, 50), (5, 1), (12, 10), (3, 4)]
 points.sort()
 distance, closest_points = closest_pair(points)
-
+print("pritam rote")
 print("The smallest distance is", distance)
 print("The closest pair of points is", closest_points)
 
 
-# R - 2T(n/2) + O(n)
-# t - O(nlogn)
-# s - O(n)
+
+
+
+
+
+
+### **6. Closest Pair of Points**
+
+# #### **Aim**  
+# To find the closest pair of points in a 2D plane.
+
+# #### **Working**  
+# The points are divided into two halves. The closest pairs are found recursively in both halves and across the dividing line.
+
+# #### **Pseudo Code**  
+# ```  
+# Algorithm: Closest Pair of Points  
+# Input: Set of points P  
+# Output: Pair of points with minimum distance  
+
+# 1. Sort points by x-coordinate  
+# 2. Divide points into two halves, PL and PR  
+# 3. Recursively find closest pairs in PL and PR  
+# 4. Find closest pair across the dividing line  
+# 5. Return the smallest distance  
+# ```
+
+# #### **Complexity and Recurrence Formula**  
+# - **Time Complexity**: \(O(n \log n)\)  
+# - **Space Complexity**: \(O(n)\)  
+# - **Recurrence Relation**:  
+#   \(T(n) = 2T(n/2) + O(n)\)
+
+# #### **Conclusion**  
+# Efficiently solves geometric problems by reducing the search space using divide-and-conquer.
